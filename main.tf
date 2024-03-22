@@ -11,13 +11,11 @@ terraform {
 
 provider "aws" {
   region = "sa-east-1"
-  access_key = "AKIA6ODU6ZM3IFVQJFEJ"
-  secret_key = "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"
 
   default_tags {
     tags = {
       owner = "VictorCoelho"
-      managed-by = "terraform" // Mantido e Operado pelo Terraform
+      managed-by = "deployer" // Mantido e Operado pelo Terraform
     }
   }
 }
